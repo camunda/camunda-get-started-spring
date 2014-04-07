@@ -8,8 +8,6 @@
   <properties>
     <camunda.version>7.18.0</camunda.version>
     <spring.version>5.3.22</spring.version>
-    <h2.version>2.1.214</h2.version>
-    <slf4j.version>1.7.36</slf4j.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
@@ -37,6 +35,7 @@
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine</artifactId>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.camunda.bpm</groupId>
@@ -61,16 +60,6 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <version>${h2.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-jdk14</artifactId>
-      <version>${slf4j.version}</version>
     </dependency>
   </dependencies>
 
