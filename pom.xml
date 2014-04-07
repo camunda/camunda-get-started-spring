@@ -35,6 +35,7 @@
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine</artifactId>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.camunda.bpm</groupId>
@@ -59,16 +60,6 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <version>1.4.190</version>
-    </dependency>
-    <dependency> 
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-jdk14</artifactId>
-      <version>1.7.26</version>
     </dependency>
   </dependencies>
 
