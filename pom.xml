@@ -7,7 +7,7 @@
 
   <properties>
     <camunda.version>7.15.0</camunda.version>
-    <spring.version>5.2.8.RELEASE</spring.version>
+    <spring.version>5.2.9.RELEASE</spring.version>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
